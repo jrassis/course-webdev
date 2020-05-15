@@ -1,0 +1,49 @@
+#bar {
+  background-color: #9af9b7;
+  color: black;
+}
+
+.navbar-brand h1{
+	color: black;
+	font-size: 1.5em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#menu-itens {
+	width: 100%;
+	text-align: center;
+}
+
+#menu-itens a {
+	color: black;
+}
+
+#menu-item {
+	color: black;
+	background: gray;
+	height: 1000px;
+	margin: 20px;
+}
+
+#menu-item  > header {
+	margin-bottom: 15px;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#menu-item > p {
+	padding: 20px;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	#menu-item {
+		margin: 50px;
+	}
+
+	#menu-item > p {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
